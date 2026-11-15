@@ -132,7 +132,7 @@ export default function Methodology() {
                 typed by hand.
               </p>
             </div>
-            {m.data?.manifest?.built_at && (
+            {false && (
               <dl className="shrink-0 rounded-lg border border-line bg-surface-raised px-3 py-2">
                 <dt className="label">Data build</dt>
                 <dd className="num mt-0.5 text-sm text-ink">{String(m.data.manifest.built_at).slice(0, 10)}</dd>
