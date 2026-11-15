@@ -6,6 +6,7 @@ import { fmtCoord, fmtValue } from '../lib/format';
 import { useSearch } from '../lib/SearchContext';
 import { useAsync } from '../lib/useAsync';
 import type { Dataset, FeatureDef, Target } from '../lib/types';
+import TutorialBanner from '../components/TutorialBanner';
 
 const SPOTLIGHT_MS = 6000;
 
@@ -202,6 +203,7 @@ export default function Home() {
 
   return (
     <div className="pb-16">
+      <TutorialBanner />
       {/* ------------------------------------------------------------ hero */}
       <section className="relative isolate border-b border-line">
         <HeroBackdrop />
