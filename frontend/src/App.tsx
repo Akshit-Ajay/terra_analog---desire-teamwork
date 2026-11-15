@@ -69,7 +69,7 @@ function Footer() {
           </p>
           <p className="mt-1.5 text-xs leading-relaxed text-ink-faint">
             Similar terrain statistics at the 12 km / 30 m scale — never a landing site or a habitability judgement.
-            Student hackathon adaptation of the Terrestrial Analog Finder project by team ghostblood. Not affiliated with or endorsed by NASA, ESA or USGS.
+            Student hackathon adaptation of the Terrestrial Analog Finder project by team desire. Not affiliated with or endorsed by NASA, ESA or USGS.
           </p>
         </div>
         <nav aria-label="Footer" className="flex shrink-0 flex-wrap gap-x-5 gap-y-1 text-xs">
