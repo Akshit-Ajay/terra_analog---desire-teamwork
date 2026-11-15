@@ -40,15 +40,15 @@ function HeroBackdrop() {
 }
 
 /** Live connection state for the analysis server, as a single quiet line. */
-function ServerStatus({ loading, error, locations, builtAt }: {
-  loading: boolean; error: string | null; locations?: number; builtAt?: string;
+function ServerStatus({ loading, error, locations }: {
+  loading: boolean; error: string | null; locations?: number;
 }) {
   const tone = loading ? 'bg-ink-faint' : error ? 'bg-danger' : 'bg-earth';
   const text = loading
     ? 'Contacting analysis server…'
     : error
       ? `Analysis server unavailable — ${error}`
-      : `Analysis server online · ${locations} locations · data built ${builtAt?.slice(0, 10)}`;
+      : `Analysis server online · ${locations} locations`;
   return (
     <p className="flex items-center gap-2 text-xs text-ink-faint" aria-live="polite">
       <span className={`live-dot ${tone}`} />
@@ -222,13 +222,13 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap gap-3">
               <Link to="/explore" className="btn-primary px-5 py-2.5 text-base">Start exploring</Link>
-              <Link to="/methodology" className="btn-ghost px-5 py-2.5 text-base">Data and methodology</Link>
+              <Link to="/methodology" className="btn-ghost px-5 py-2.5 text-base !bg-[#201f1d] !text-[#fafaf8]">Data and methodology</Link>
             </div>
             <ServerStatus
               loading={health.loading}
               error={health.error}
               locations={health.data?.locations}
-              builtAt={health.data?.built_at}
+            
             />
           </div>
 
