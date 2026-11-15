@@ -1,3 +1,10 @@
+*Team Desire* · NASA Space Apps Challenge 2026
+
+- 🌐 *Live website:* https://terra-analog-3wc3.onrender.com/
+- 📱 *Android app (APK):* https://github.com/Akshit-Ajay/terra-analog-app
+  
+
+
 # TERRA-ANALOG
 
 > **Start here:** See [START_HERE.md](START_HERE.md) for the Windows quick-start script, manual setup commands, scientific scope and licence note.
