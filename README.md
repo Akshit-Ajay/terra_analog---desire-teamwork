@@ -249,7 +249,6 @@ These are summarised here. The full list is on the app's Data and methodology pa
 
 ## 16. Contributors
 
-**Team ghostblood** — NASA Space Apps Challenge 2026.
+**Team desire** — NASA Space Apps Challenge 2026.
 
-Individual member names are not recorded here yet; add them before submitting, and make sure every member is also
-registered and listed on the team's Members tab on spaceappschallenge.org (Global Judging requires it).
+Individual member names are Akshit Ajay,Faiz Mohamed Jojin
