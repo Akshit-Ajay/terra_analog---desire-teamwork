@@ -6,6 +6,7 @@ import Compare from './pages/Compare';
 import Explorer from './pages/Explorer';
 import Home from './pages/Home';
 import Methodology from './pages/Methodology';
+import Tutorial from './pages/Tutorial';
 
 function Nav() {
   const { compareIds } = useSearch();
@@ -14,6 +15,7 @@ function Nav() {
     ['/', 'Home'],
     ['/explore', 'Explorer'],
     ['/compare', 'Compare', compareIds.length || undefined],
+    ['/tutorial', 'Tutorial'],
     ['/methodology', 'Data & methods'],
     ['/about', 'About'],
   ];
@@ -94,6 +96,7 @@ export default function App() {
             <Route path="/compare" element={<Compare />} />
             <Route path="/methodology" element={<Methodology />} />
             <Route path="/about" element={<About />} />
+            <Route path="/tutorial" element={<Tutorial />} />
             <Route path="*" element={<p className="p-6 text-ink-muted">Page not found.</p>} />
           </Routes>
         </main>
