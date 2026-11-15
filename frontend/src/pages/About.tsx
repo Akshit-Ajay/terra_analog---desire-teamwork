@@ -119,10 +119,7 @@ export default function About() {
               sustained surface activity. The Martian references are CTX terrain models around well-studied landing
               regions.
             </p>
-            <p className="note-warn">
-              The official challenge page could not be accessed from the build environment, so official rules and
-              deliverables are listed as unverified in the project documentation.
-            </p>
+            
           </div>
         </Reveal>
 
